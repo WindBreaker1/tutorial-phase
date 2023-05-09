@@ -1,14 +1,20 @@
+<!--Main learning code. To see what each instruction does, simply hover over them in your IDE of choice.-->
 <style>
+	/*Main learning button styles.*/
 	.subscribe-button {
 		background-color: mediumseagreen;
 		color: white;
 		border: none;
 		border-radius: 25px;
-		height: 35px;
-		width: 110px;
 		cursor: pointer;
 		margin-right: 10px;
+		margin-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 16px;
+		padding-right: 16px;
 		transition: opacity 0.15s;
+		vertical-align: top;
 	}
 
 	.subscribe-button:hover{
@@ -25,10 +31,13 @@
 		border-color: rgb(14, 173, 236);
 		border-style: solid;
 		border-radius: 3px;
-		height: 35px;
-		width: 60px;
-		cursor: pointer;
+		border-width: 1px;
+		padding-top: 9px;
+		padding-bottom: 9px;
+		padding-left: 16px;
+		padding-right: 16px;
 		margin-right: 10px;
+		cursor: pointer;
 		transition: background-color 1s, color 1s;
 	}
 
@@ -44,21 +53,112 @@
 		font-size: 15px;
 		border: none;
 		border-radius: 50px;
-		height: 35px;
-		width: 70px;
+		padding-top: 9px;
+		padding-bottom: 9px;
+		padding-left: 16px;
+		padding-right: 16px;
+		margin-right: 10px;
 		cursor:pointer;
 		transition: box-shadow 0.15s;
+		vertical-align: top;
 	}
 
 	.tweet-button:hover {
 		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
 	}
 
+	/*Main text styles.*/
 	h1 {text-align: center;}
 	p {text-align: center;}
+	a {color: rgb(0,113,133);}
+	
+	/*Exercise button styles.*/
+	.back-and-next {
+		border-width: 1.2px;
+		border-radius: 3px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.stretch-button {
+		background-color: green;
+		color: white;
+		border: none;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 15px;
+		padding-right: 15px;
+		cursor:pointer;
+		margin-right: 10px;
+		margin-left: 10px;
+		transition: all 1s;
+	}
+
+	.stretch-button:hover {
+		padding-top: 18px;
+		padding-bottom: 18px;
+		padding-left: 36px;
+		padding-right: 36px;
+	}
+
+	.shadow-button {
+		background-color: green;
+		color: white;
+		border: none;
+		padding-top: 9px;
+		padding-bottom: 9px;
+		padding-left: 16px;
+		padding-right: 16px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
+		cursor: pointer;
+		box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+	}
+
+	.shadow-button:active {
+		margin-top: 3px;
+		margin-left: 3px;
+		box-shadow: none;
+	}
+
+	.margin-padding-button {
+		background-color: green;
+		color: white;
+		border: none;
+		cursor: pointer;
+		padding-top: 9px;
+		padding-bottom: 9px;
+		padding-left: 11px;
+		padding-right: 11px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 5px;
+		margin-left: 5px;
+		transition: all 0.5s;
+	}
+
+	.margin-padding-button:hover {
+		padding-top: 9px;
+		padding-bottom: 9px;
+		padding-left: 22px;
+		padding-right: 22px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
 
 </style>
 
+<!--Website skeleton-->
 <h1>This is my website!</h1>
 
 <p>Click below! lmao</p>
@@ -69,3 +169,20 @@
 
 <button class="tweet-button">Tweet</button>
 
+<!--Exercise Buttons-->
+
+<button class="stretch-button">Stretch</button>
+
+<button class="shadow-button">Shadow</button>
+
+<button class="margin-padding-button">One</button>
+
+<button class="margin-padding-button">Two</button>
+
+<button class="margin-padding-button">Three</button>
+
+<button class="back-and-next">Back</button>
+
+<a href="https://www.amazon.com/">1 2 3 4 5</a>
+
+<button class="back-and-next">Next</button>
