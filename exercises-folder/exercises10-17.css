@@ -52,3 +52,34 @@ p {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/*Exercise 11*/
+.footer {
+  margin-top: 25px;
+  background-color: purple;
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-text {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.search-bar {
+  border: none;
+  border-radius: 25px;
+  width: 400px;
+}
+
+.download-button {
+  background-color: purple;
+  color: white;
+  border: solid;
+  border-width: 1px;
+  border-radius: 1px;
+  padding: 5px;
+}
