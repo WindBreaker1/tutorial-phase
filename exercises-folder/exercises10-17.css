@@ -1,0 +1,54 @@
+p {
+  font-family:Arial;
+  margin-top: 5px;
+  margin-bottom:5px;
+  font-size:10px;
+}
+/*Exercise 10.*/
+.friends-list {
+  display:block;
+}
+
+.friend-profile {
+  display:block;
+}
+
+.div-profile-picture {
+  display:inline-block
+}
+
+.profile-picture{
+  width:50px;
+  border-radius:50px;
+  margin-right:10px;
+  vertical-align: middle;
+}
+
+.text-block {
+  display:inline-block;
+  margin-right:50px;
+  vertical-align: middle;
+}
+
+.profile-name {
+  font-weight:bold;
+}
+
+.profile-details {
+  color:grey;
+}
+
+.div-follow {
+  display:inline-block;
+  vertical-align: middle; 
+}
+
+.follow-button {
+  color: white;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
